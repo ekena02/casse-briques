@@ -31,7 +31,7 @@ class Ping(RelativeLayout):
     V_SPACING = 1 / 30
     game_over = False
     succes = False
-    nb_briques = 75
+    nb_briques = 10
     briques_coordinates = []
     briques = []
     current_direction = None
