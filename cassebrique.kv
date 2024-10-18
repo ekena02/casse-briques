@@ -1,0 +1,21 @@
+<Ping>:
+    canvas.before:
+        Color:
+            rgba:.2,.2,.2,.8
+        Rectangle:
+            size:self.size
+    _menuwidget:_menuwidget
+    MenuWidget:
+        id:_menuwidget
+<MenuWidget@RelativeLayout>:
+    canvas.before:
+        Color:
+            rgba:0,0,0,1
+        Rectangle:
+            size:root.parent.size
+    Label:
+        text:root.parent._text
+        font_size:30
+        color:root.parent._text_color
+        font_name:'SixtyfourConvergence-Regular.ttf'
+        pos_hint:{'center_x':.5,'center_y':.3}
